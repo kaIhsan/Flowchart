@@ -1,10 +1,10 @@
-# Flowchart Praktikum Python 
+# Flowchart Praktikum Python Pertemuan 2-7
 
-([START]) dan ([END]) = Terminator
-[Proses] = Process
-[/Input atau Output/] = Input/Output
-{Kondisi} = Decision
-((O)) = Connector
+# ([START]) dan ([END]) = Terminator
+# [Proses] = Process
+# [/Input atau Output/] = Input/Output
+# {Kondisi} = Decision
+# ((O)) = Connector
 
 # Pertemuan 4
 
