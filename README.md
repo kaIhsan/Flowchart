@@ -10,10 +10,6 @@
 # Pertemuan 2
 # -----------------
 
-# Flowchart Python - Literal, Operator & Ekspresi
-
----
-
 ## Soal 1: Literal Integer (Positif & Negatif)
 
 ```mermaid
@@ -206,10 +202,6 @@ flowchart TD
 # -----------------
 # Pertemuan 3
 # -----------------
-
-# Flowchart Python - Variabel & Operasi
-
----
 
 ## Soal 1 & 2: Membuat dan Menggunakan Variabel
 
