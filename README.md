@@ -7,6 +7,283 @@
 # ((O)) = Connector
 
 # -----------------
+# Pertemuan 2
+# -----------------
+
+# Flowchart Python - Literal, Operator & Ekspresi
+
+---
+
+## Soal 1: Literal Integer (Positif & Negatif)
+
+```mermaid
+flowchart TD
+    A([START]) --> B[/Cetak 11111111/]
+    B --> C[/Cetak -11111111/]
+    C --> D([END])
+```
+
+---
+
+## Soal 2: Additional Convention (Octal & Hexadecimal)
+
+```mermaid
+flowchart TD
+    A([START]) --> B[Konversi basis oktal\n0o123 ke desimal]
+    B --> C[/Cetak 83/]
+    C --> D[Konversi basis heksadesimal\n0x123 ke desimal]
+    D --> E[/Cetak 291/]
+    E --> F([END])
+```
+
+---
+
+## Soal 3: Literal Float
+
+```mermaid
+flowchart TD
+    A([START]) --> B[/Cetak 0.4/]
+    B --> C[/Cetak 4.0/]
+    C --> D[Interpretasi notasi singkat\n.4 menjadi 0.4]
+    D --> E[/Cetak 0.4/]
+    E --> F[Hitung eksponensial\n4e-1 sama dengan 4 x 10 pangkat -1]
+    F --> G[/Cetak 0.4/]
+    G --> H([END])
+```
+
+---
+
+## Soal 4: Literal String
+
+```mermaid
+flowchart TD
+    A([START]) --> B[/Cetak string dengan tanda kutip tunggal\nHasil: Halo Nanto/]
+    B --> C[/Cetak string dengan tanda kutip ganda\nHasil: Halo Nanto/]
+    C --> D([END])
+```
+
+---
+
+## Soal 5: Boolean Values
+
+```mermaid
+flowchart TD
+    A([START]) --> B[/Cetak True/]
+    B --> C[/Cetak False/]
+    C --> D{Evaluasi logika\nApakah 10 lebih besar dari 5?}
+    D --> E[/Cetak True/]
+    E --> F([END])
+```
+
+---
+
+## Soal 6: Operator Pangkat
+
+```mermaid
+flowchart TD
+    A([START]) --> B[Hitung 2 pangkat 3\nInteger dan Integer]
+    B --> C[/Cetak 8/]
+    C --> D[Hitung 2 pangkat 3.0\nInteger dan Float]
+    D --> E[/Cetak 8.0/]
+    E --> F[Hitung 2.0 pangkat 3\nFloat dan Integer]
+    F --> G[/Cetak 8.0/]
+    G --> H[Hitung 2.0 pangkat 3.0\nFloat dan Float]
+    H --> I[/Cetak 8.0/]
+    I --> J([END])
+```
+
+---
+
+## Soal 7: Operator Perkalian
+
+```mermaid
+flowchart TD
+    A([START]) --> B[Hitung 5 kali 2]
+    B --> C[/Cetak 10/]
+    C --> D[Hitung 5 kali 2.5]
+    D --> E[/Cetak 12.5/]
+    E --> F[Hitung 5.0 kali 2]
+    F --> G[/Cetak 10.0/]
+    G --> H[Hitung 5.0 kali 2.0]
+    H --> I[/Cetak 10.0/]
+    I --> J([END])
+```
+
+---
+
+## Soal 8: Operator Pembagian
+
+```mermaid
+flowchart TD
+    A([START]) --> B[Hitung 10 dibagi 2\nHasil otomatis dikonversi ke Float]
+    B --> C[/Cetak 5.0/]
+    C --> D[Hitung 10 dibagi 2.5]
+    D --> E[/Cetak 4.0/]
+    E --> F[Hitung 10.0 dibagi 2]
+    F --> G[/Cetak 5.0/]
+    G --> H[Hitung 10.0 dibagi 2.0]
+    H --> I[/Cetak 5.0/]
+    I --> J([END])
+```
+
+---
+
+## Soal 9: Operator Floor Division
+
+```mermaid
+flowchart TD
+    A([START]) --> B[Hitung 10 floor division 3\nHasil dibulatkan ke bawah]
+    B --> C[/Cetak 3/]
+    C --> D[Hitung 10 floor division 3.0]
+    D --> E[/Cetak 3.0/]
+    E --> F[Hitung 10.0 floor division 3]
+    F --> G[/Cetak 3.0/]
+    G --> H[Hitung 10.0 floor division 3.0]
+    H --> I[/Cetak 3.0/]
+    I --> J([END])
+```
+
+---
+
+## Soal 10: Operator Modulo
+
+```mermaid
+flowchart TD
+    A([START]) --> B[Hitung sisa bagi\n10 modulo 3]
+    B --> C[/Cetak 1/]
+    C --> D[Hitung sisa bagi\n10 modulo 3.0]
+    D --> E[/Cetak 1.0/]
+    E --> F[Hitung sisa bagi\n10.0 modulo 3]
+    F --> G[/Cetak 1.0/]
+    G --> H[Hitung sisa bagi\n10.0 modulo 3.0]
+    H --> I[/Cetak 1.0/]
+    I --> J([END])
+```
+
+---
+
+## Soal 11: Operator Unary dan Binary
+
+```mermaid
+flowchart TD
+    A([START]) --> B[Evaluasi unary negatif\ntanda minus pada literal 5]
+    B --> C[/Cetak -5/]
+    C --> D[Evaluasi unary positif\nmenegaskan posisi positif nilai 5]
+    D --> E[/Cetak 5/]
+    E --> F[Evaluasi binary\noperasi penjumlahan 5 plus 5]
+    F --> G[/Cetak 10/]
+    G --> H([END])
+```
+
+---
+
+## Soal 12: Subekspresi
+
+```mermaid
+flowchart TD
+    A([START]) --> B[Hitung perkalian\nhirarki: perkalian didahulukan\n3 kali 5 sama dengan 15]
+    B --> C[Hitung penjumlahan\n2 tambah 15 sama dengan 17]
+    C --> D[/Cetak 17/]
+    D --> E[Hitung dalam kurung\nhirarki: kurung menginterupsi prioritas\n2 tambah 3 sama dengan 5]
+    E --> F[Hitung perkalian luar\n5 kali 5 sama dengan 25]
+    F --> G[/Cetak 25/]
+    G --> H([END])
+```
+
+---
+
+## Soal 13: Kuis - Hierarki Operator
+
+```mermaid
+flowchart TD
+    A([START]) --> B[Prioritas 1 - Pangkat\nhirarki tertinggi\n2 pangkat 2 sama dengan 4]
+    B --> C[Prioritas 2 - Perkalian\ndilanjutkan operasi perkalian\n3 kali 4 sama dengan 12]
+    C --> D[Prioritas 3 - Penjumlahan\noperasi terakhir\n10 tambah 12 sama dengan 22]
+    D --> E[/Cetak 22/]
+    E --> F([END])
+```
+
+# -----------------
+# Pertemuan 3
+# -----------------
+
+# Flowchart Python - Variabel & Operasi
+
+---
+
+## Soal 1 & 2: Membuat dan Menggunakan Variabel
+
+```mermaid
+flowchart TD
+    A([START]) --> B[Inisialisasi variabel\nvar = 3\nnilai = 90\nnama = Budi]
+    B --> C[/Tampilkan var, nilai, nama\nOutput: 3, 90, Budi/]
+    C --> D([END])
+```
+
+---
+
+## Soal 3 & 4: Memasukkan Nilai Baru - Re-assignment
+
+```mermaid
+flowchart TD
+    A([START]) --> B[Set tabungan = 500000]
+    B --> C[/Tampilkan tabungan\nOutput: 500000/]
+    C --> D[Update nilai baru\ntabungan = 750000]
+    D --> E[/Tampilkan tabungan\nOutput: 750000/]
+    E --> F([END])
+```
+
+---
+
+## Soal 5: Shortcut Operators
+
+```mermaid
+flowchart TD
+    A([START]) --> B[Inisialisasi\njumlah = 10]
+    B --> C[Update dengan shortcut tambah\njumlah = 10 tambah 5\nsingkatan: jumlah plus-sama-dengan 5\nHasil: jumlah = 15]
+    C --> D[Update dengan shortcut kali\njumlah = 15 kali 2\nsingkatan: jumlah kali-sama-dengan 2\nHasil: jumlah = 30]
+    D --> E[/Tampilkan jumlah\nOutput: 30/]
+    E --> F([END])
+```
+
+---
+
+## Soal 6: Solving Simple Mathematical Problem
+
+```mermaid
+flowchart TD
+    A([START]) --> B[Set panjang = 10\nSet lebar = 5]
+    B --> C[Hitung luas\nluas = panjang kali lebar\nluas = 10 kali 5]
+    C --> D[/Tampilkan luas\nOutput: 50/]
+    D --> E([END])
+```
+
+---
+
+## Soal 7: Kuis 3 - Menukar Nilai - Swapping
+
+```mermaid
+flowchart TD
+    A([START]) --> B[Set a = 5\nSet b = 10]
+    B --> C[Tukar posisi secara simultan\na dan b = b dan a]
+    C --> D[/Tampilkan a dan b\nOutput: a = 10, b = 5/]
+    D --> E([END])
+```
+
+---
+
+## Soal 8 & 9: Kuis 4 & 5 - Eksponen dan Modulo
+
+```mermaid
+flowchart TD
+    A([START]) --> B[Inisialisasi data\nangka = 2\npangkat = 3\nbil = 17\npembagi = 4]
+    B --> C[Hitung eksponen\nhasil = 2 pangkat 3\nhasil = 8]
+    C --> D[Hitung modulo\nsisa = 17 modulo 4\nsisa = 1]
+    D --> E[/Tampilkan hasil dan sisa\nOutput: 8 dan 1/]
+    E --> F([END])
+```
+
+# -----------------
 # Pertemuan 4
 # -----------------
 
