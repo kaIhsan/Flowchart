@@ -6,7 +6,9 @@
 # {Kondisi} = Decision
 # ((O)) = Connector
 
+# -----------------
 # Pertemuan 4
+# -----------------
 
 ## Soal 1 - Membuat Fungsi Input dan Menampilkan ke Konsol
 
@@ -248,9 +250,9 @@ flowchart TD
     F --> H
     G --> H
 ```
-#--------------------------------------------#
+# -----------------
 # Pertemuan 5
-#--------------------------------------------#
+# -----------------
 
 # Soal 1 - Comparison Operator
 
@@ -462,9 +464,9 @@ flowchart TD
     A --> B --> C --> D --> E --> F
 ```
 
-#---------------------------------#
+# -----------------
 # Pertemuan 6
-#---------------------------------#
+# -----------------
 
 # Soal 1 - Perulangan While Contoh 1
 ```mermaid
@@ -755,4 +757,154 @@ flowchart TD
     F([END])
 
     A --> B --> C --> D --> E --> F
+```
+
+# -----------------
+# Pertemuan 7
+# -----------------
+
+# Soal 1, 2, dan 5 - Konsep Indexing Positif dan Negatif
+
+```mermaid
+flowchart TD
+    A([START])
+    B[Inisialisasi List Buah]
+    C[Akses Elemen Pertama]
+    D[Akses Elemen Terakhir]
+    E[/Tampilkan Hasil Indexing/]
+    F([END])
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+```
+
+---
+
+# Soal 4 - Menghapus Elemen Del dan Remove
+
+```mermaid
+flowchart TD
+    A([START])
+    B[Inisialisasi List Angka]
+    C[Hapus Elemen Pada Indeks 1]
+    D[Hapus Nilai 3]
+    E[/Tampilkan List Akhir/]
+    F([END])
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+```
+
+---
+
+# Soal 7, 8, dan 9 - Menambah Elemen Append dan Insert
+
+```mermaid
+flowchart TD
+    A([START])
+    B[List Kosong]
+    C{Masih Ada Iterasi}
+    D{Metode Penambahan}
+    E[Tambah Di Akhir]
+    F[Sisip Di Depan]
+    G[/Tampilkan Isi List/]
+    H([END])
+
+    A --> B
+    B --> C
+
+    C -- Ya --> D
+    C -- Tidak --> G
+
+    D -- Append --> E
+    D -- Insert --> F
+
+    E --> C
+    F --> C
+
+    G --> H
+```
+
+---
+
+# Soal 10 dan 11 - Iterasi List
+
+```mermaid
+flowchart TD
+    A([START])
+    B{Mode Iterasi}
+    C[Berdasarkan Indeks]
+    D[Berdasarkan Nilai]
+    E[Gunakan Range Dan Len]
+    F[Gunakan For Item]
+    G[/Cetak Indeks Dan Nilai/]
+    H[/Cetak Isi List/]
+    I((O))
+    J([END])
+
+    A --> B
+
+    B -- Indeks --> C
+    B -- Nilai --> D
+
+    C --> E
+    D --> F
+
+    E --> G
+    F --> H
+
+    G --> I
+    H --> I
+
+    I --> J
+```
+
+---
+
+# Soal 12 - Teknik Swap Menukar Nilai
+
+```mermaid
+flowchart TD
+    A([START])
+    B[Inisialisasi List]
+    C[Ambil Elemen Pertama Dan Terakhir]
+    D[Tukar Posisi Kedua Elemen]
+    E[/Tampilkan List Baru/]
+    F([END])
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+```
+
+---
+
+# Soal 13 - Kuis 20 Kompleksitas List
+
+```mermaid
+flowchart TD
+    A([START])
+    B[Inisialisasi List Kosong]
+    C[Append Empat Data]
+    D[Append Tujuh Data Dengan Loop]
+    E[Hapus Beberapa Data]
+    F[Sisipkan Data Baru]
+    G[/Cetak Panjang Dan Isi List/]
+    H([END])
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G --> H
 ```
