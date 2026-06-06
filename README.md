@@ -1,14 +1,12 @@
 # Flowchart Praktikum Python 
 
-# ([START]) dan ([END]) = Terminator
-# [Proses] = Process
-# [/Input atau Output/] = Input/Output
-# {Kondisi} = Decision
-# ((O)) = Connector
+([START]) dan ([END]) = Terminator
+[Proses] = Process
+[/Input atau Output/] = Input/Output
+{Kondisi} = Decision
+((O)) = Connector
 
-# ------------#
 # Pertemuan 4
-# ------------#
 
 ## Soal 1 - Membuat Fungsi Input dan Menampilkan ke Konsol
 
