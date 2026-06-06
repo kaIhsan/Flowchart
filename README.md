@@ -23,8 +23,8 @@ flowchart TD
 ```mermaid
 flowchart TD
     A([START])
-    B[Passing Argumen<br/>nama = "ihsan"]
-    C[/Cetak: Halo ihsan/]
+    B[Passing Argumen nama = ihsan]
+    C[/Cetak Halo ihsan/]
     D([END])
 
     A --> B
@@ -39,9 +39,9 @@ flowchart TD
 ```mermaid
 flowchart TD
     A([START])
-    B[/Input: Masukkan angka/]
-    C[Cek tipe data dengan type()]
-    D[/Cetak: class str/]
+    B[/Input Angka/]
+    C[Cek Tipe Data]
+    D[/Cetak Tipe String/]
     E([END])
 
     A --> B
@@ -57,8 +57,8 @@ flowchart TD
 ```mermaid
 flowchart TD
     A([START])
-    B[/Input: Masukkan desimal/]
-    C[Konversi float(nilai_input)]
+    B[/Input Desimal/]
+    C[Konversi ke Float]
     D[/Cetak Nilai Float/]
     E([END])
 
@@ -70,14 +70,14 @@ flowchart TD
 
 ---
 
-## Soal 5 - Menghitung Sisi Miring Segitiga (Dengan Variabel hypo)
+## Soal 5 - Menghitung Sisi Miring Segitiga Dengan Variabel
 
 ```mermaid
 flowchart TD
     A([START])
     B[/Input Sisi A dan Sisi B/]
-    C[Hitung hypo = √(A² + B²)]
-    D[/Cetak Sisi Miring hypo/]
+    C[Hitung hypo = akar A kuadrat + B kuadrat]
+    D[/Cetak Nilai Hypo/]
     E([END])
 
     A --> B
@@ -88,13 +88,13 @@ flowchart TD
 
 ---
 
-## Soal 6 - Menghitung Sisi Miring Segitiga (Tanpa Variabel hypo)
+## Soal 6 - Menghitung Sisi Miring Segitiga Tanpa Variabel
 
 ```mermaid
 flowchart TD
     A([START])
     B[/Input Sisi A dan Sisi B/]
-    C[Hitung langsung √(A² + B²)]
+    C[Hitung Langsung Pythagoras]
     D[/Cetak Hasil Perhitungan/]
     E([END])
 
@@ -104,7 +104,6 @@ flowchart TD
     D --> E
 ```
 
----
 
 ## Soal 7 - Operator Konkatenasi
 
