@@ -141,14 +141,14 @@ flowchart TD
 
 ---
 
-## Soal 9 - Konversi ke String (str)
+## Soal 9 - Konversi ke String
 
 ```mermaid
 flowchart TD
     A([START])
-    B[Hitung luas = 10 × 5]
-    C[Konversi str(luas)]
-    D[Gabungkan dengan kalimat]
+    B[Hitung Luas]
+    C[Konversi Menjadi String]
+    D[Gabungkan Dengan Kalimat]
     E[/Cetak Pesan Pengumuman/]
     F([END])
 
@@ -166,10 +166,10 @@ flowchart TD
 ```mermaid
 flowchart TD
     A([START])
-    B[/Input: Masukkan sesuatu/]
-    C[Konversi float(input)]
-    D[/Cetak tipe awal str/]
-    E[/Cetak tipe akhir float/]
+    B[/Input Data/]
+    C[Konversi Ke Float]
+    D[/Cetak Tipe Awal String/]
+    E[/Cetak Tipe Akhir Float/]
     F([END])
 
     A --> B
@@ -186,7 +186,7 @@ flowchart TD
 ```mermaid
 flowchart TD
     A([START])
-    B[Pembatas = "=" × 20]
+    B[Buat Pembatas 20 Karakter]
     C[/Cetak Pembatas/]
     D[/Cetak MENU PRAKTIKUM/]
     E[/Cetak Pembatas/]
@@ -207,7 +207,7 @@ flowchart TD
 flowchart TD
     A([START])
     B[/Input Nama Mata Kuliah/]
-    C[Ubah dengan upper()]
+    C[Ubah Menjadi Huruf Kapital]
     D[/Cetak Pesan Selamat/]
     E([END])
 
@@ -217,7 +217,6 @@ flowchart TD
     D --> E
 ```
 
----
 
 ## Soal 13 - Kuis 9 Cek Bilangan Genap
 
